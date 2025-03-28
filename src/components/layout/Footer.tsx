@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center space-x-1 mb-4 md:mb-0">
           <span className="text-sm text-muted-foreground">
-            MemoryMate - Supporting cognitive wellbeing
+          Memory Lane Games - Supporting cognitive wellbeing
           </span>
         </div>
         

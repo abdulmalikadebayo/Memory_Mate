@@ -10,7 +10,7 @@ const Index = () => {
   const { speak } = useVoice();
   
   useEffect(() => {
-    speak("Welcome to Memory Mate. An AI-powered memory game to support cognitive wellbeing.");
+    speak("Welcome to Memory Lane Games. An AI-powered memory game to support cognitive wellbeing.");
   }, [speak]);
   
   return (
@@ -52,7 +52,7 @@ const Index = () => {
         <section className="w-full py-16 bg-accent/30 rounded-3xl my-8">
           <div className="max-w-6xl mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">
-              How MemoryMate Works
+              How Memory Lane Games Works
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -96,7 +96,7 @@ const Index = () => {
               Supporting Cognitive Wellbeing
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              MemoryMate is designed to provide gentle cognitive stimulation through familiar memories.
+            Memory Lane Games is designed to provide gentle cognitive stimulation through familiar memories.
             </p>
           </div>
           

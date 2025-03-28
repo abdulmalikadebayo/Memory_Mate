@@ -9,16 +9,16 @@ const HelpPage = () => {
   const { speak } = useVoice();
   
   React.useEffect(() => {
-    speak("Welcome to the help page. Here you can learn how to use MemoryMate.");
+    speak("Welcome to the help page. Here you can learn how to use Memory Lane Games.");
   }, [speak]);
   
   return (
     <PageLayout>
       <div className="animate-fade-in space-y-8 max-w-4xl mx-auto">
         <div className="text-center space-y-3 mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold">How to Use MemoryMate</h1>
+          <h1 className="text-3xl md:text-4xl font-bold">How to Use Memory Lane Games</h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            MemoryMate helps exercise your memory with personalized AI-generated questions about your own photos.
+          Memory Lane Games helps exercise your memory with personalized AI-generated questions about your own photos.
           </p>
         </div>
         

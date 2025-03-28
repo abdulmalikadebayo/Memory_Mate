@@ -47,7 +47,7 @@ const Header: React.FC = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center gap-2">
             <Brain className="h-7 w-7 md:h-8 md:w-8 text-primary animate-pulse" />
-            <span className="font-bold text-xl md:text-2xl">MemoryMate</span>
+            <span className="font-bold text-xl md:text-2xl">Memory Lane Games</span>
           </Link>
         </div>
         
